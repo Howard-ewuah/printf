@@ -169,7 +169,7 @@ return (write(1, &buffer[ind], length));
 }
 /**
  *write_pointer - Write a memory address
- @buffer: Arrays of chars
+ *@buffer: Arrays of chars
  *@ind: Index at which the number starts in the buffer
  *@length: Length of number
  *@width: Wwidth specifier
